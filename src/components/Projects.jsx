@@ -59,7 +59,7 @@ The app features a minimalist design that focuses on simplicity and ease of use.
 The website includes sections for about, experience, skills, projects, testimonials, and contact. It's fully responsive and optimized for performance.`,
       technologies: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],
       image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800',
-      github: 'https://github.com',
+      github: 'https://github.com/harshmarthak63/portfolio-website',
       demo: 'https://harshmarthak.netlify.app/',
       features: [
         'Responsive design',
