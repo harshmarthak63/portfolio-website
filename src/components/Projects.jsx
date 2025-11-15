@@ -39,8 +39,8 @@ The platform handles thousands of concurrent users and processes transactions se
 The app features a minimalist design that focuses on simplicity and ease of use. Users can quickly add tasks, mark them as complete, organize by categories, and filter tasks based on their status. It includes local storage to persist data and smooth animations for an enhanced user experience.`,
       technologies: ['React', 'Local Storage', 'Tailwind CSS', 'Framer Motion'],
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800',
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      github: 'https://github.com/harshmarthak63/to-do-app-react',
+      demo: 'https://harshmarthak-to-do-app-react.netlify.app/',
       features: [
         'Add and delete tasks',
         'Mark tasks as complete',
