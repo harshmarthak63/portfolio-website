@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-teal-500 via-blue-600 to-lavender-600 bg-clip-text text-transparent;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-r from-teal-500/20 via-blue-500/20 to-lavender-500/20 dark:from-teal-500/20 dark:via-blue-500/20 dark:to-lavender-500/20;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-teal-500/20 dark:hover:shadow-teal-500/20;
+  }
+  
+  .soft-glow {
+    @apply shadow-lg shadow-teal-500/20 dark:shadow-teal-500/20;
+  }
+}
